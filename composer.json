@@ -1,0 +1,23 @@
+{
+    "name": "julianlouis/wings-php",
+    "license": "proprietary",
+    "description": "PHP API client for wings",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JulianLouis\\WingsPHP\\": "/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julian-Louis",
+            "email": "contact@julianlouis.fr"
+        }
+    ],
+    "require-dev": {
+        "nunomaduro/phpinsights": "^2.0"
+    }
+}
